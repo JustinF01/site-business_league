@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="800px" height="800px" viewBox="0 0 800 800" enable-background="new 0 0 800 800" xml:space="preserve">
+<path opacity="0.5" fill="#2FC4F3" d="M798.783,400.617C798.783,621.203,619.976,800,399.393,800C178.808,800,0,621.203,0,400.617
+	c0-220.583,178.808-399.4,399.393-399.4C619.976,1.217,798.783,180.034,798.783,400.617z"/>
+<polygon fill="#0D7189" points="505.093,701.483 286.263,701.483 251.023,519.756 536.623,519.756 "/>
+<line opacity="0.5" fill="none" stroke="#744C1E" stroke-width="5" stroke-linecap="round" stroke-miterlimit="10" x1="395.682" y1="256.422" x2="493.973" y2="189.635"/>
+<line opacity="0.8" fill="none" stroke="#744C1E" stroke-width="6" stroke-linecap="round" stroke-miterlimit="10" x1="395.682" y1="111.754" x2="395.682" y2="456.696"/>
+<line opacity="0.5" fill="none" stroke="#744C1E" stroke-width="5" stroke-linecap="round" stroke-miterlimit="10" x1="395.682" y1="349.123" x2="297.392" y2="271.243"/>
+<line opacity="0.5" fill="none" stroke="#744C1E" stroke-width="5" stroke-linecap="round" stroke-miterlimit="10" x1="395.682" y1="407.668" x2="512.521" y2="325.029"/>
+<path fill="#F9D746" d="M334.477,224.874c0,46.096-37.358,83.462-83.453,83.462c-46.078,0-83.435-37.366-83.435-83.462
+	c0-46.077,37.357-83.443,83.435-83.443C297.119,141.431,334.477,178.797,334.477,224.874z"/>
+<path opacity="0.5" fill="none" stroke="#F6BC48" stroke-miterlimit="10" d="M317.785,224.874c0,36.858-29.877,66.771-66.762,66.771
+	c-36.867,0-66.761-29.912-66.761-66.771c0-36.876,29.895-66.77,66.761-66.77C287.908,158.104,317.785,187.998,317.785,224.874z"/>
+<text transform="matrix(1 0 0 1 223.2197 256.4063)" opacity="0.5" fill="#F6BC48" font-family="'Verdana'" font-size="89.0165">R</text>
+<path fill="#F9D746" d="M631.194,291.645c0,46.076-37.357,83.444-83.435,83.444c-46.095,0-83.454-37.368-83.454-83.444
+	c0-46.096,37.359-83.444,83.454-83.444C593.837,208.2,631.194,245.549,631.194,291.645z"/>
+<path opacity="0.5" fill="none" stroke="#F6BC48" stroke-miterlimit="10" d="M614.521,291.645c0,36.858-29.892,66.771-66.761,66.771
+	c-36.885,0-66.779-29.912-66.779-66.771c0-36.877,29.895-66.771,66.779-66.771C584.629,224.874,614.521,254.767,614.521,291.645z"/>
+<text transform="matrix(1 0 0 1 519.9248 323.1592)" opacity="0.5" fill="#F6BC48" font-family="'Verdana'" font-size="89.0165">R</text>
+<polygon fill="#0D7189" points="560.733,510.466 538.478,510.466 230.63,510.466 230.63,456.696 560.733,456.696 "/>
+</svg>
