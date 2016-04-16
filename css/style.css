@@ -76,9 +76,19 @@ h1 {
 	height: auto;
 }
 
+.network,
+.interest {
+	background-color: #A4DADD;
+	padding-bottom: 12%;
+}
+
+
 
 /*************************
-Header
+PAGE: Strategy
+
+Header Styling
+
 *************************/
 
 .main-header {
@@ -87,7 +97,6 @@ Header
 	padding: 10px 0;
 	display: block;
 	background-color: #A4DADD;
-
 }
 
 .logo {
@@ -103,18 +112,22 @@ Header
 }
 
 .mainNav {
-	height: 50px;
+	height: auto;
     display: block;
-	vertical-align: top;
 	list-style: none;
 }
 
 .mainNav li {
 	width: 33%;
-	padding: 2%;
+	padding: 2.5%;
 	float: left;
 	text-align: center;
 	text-transform: uppercase;
+	background-color: rgba(89, 86, 87, .5);
+}
+
+.mainNav li:hover {
+	background-color: rgba(89, 86, 87, 1);
 }
 
 .slogan {
@@ -161,11 +174,7 @@ Member Benefits
 Network
 *************************/
 
-.network,
-.interest {
-	background-color: #A4DADD;
-	padding-bottom: 12%;
-}
+
 
 .alignText {
 	width: 80%;
@@ -239,6 +248,13 @@ Interest
 	color: #595657;
 	text-align: center;
 }
+
+
+
+/*************************
+PAGE: Vision
+*************************/
+
 
 
 
