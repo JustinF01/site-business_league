@@ -118,7 +118,7 @@ Header Styling
 }
 
 .mainNav li {
-	width: 33%;
+	width: 33.3%;
 	padding: 2.5%;
 	float: left;
 	text-align: center;
@@ -249,6 +249,19 @@ Interest
 	text-align: center;
 }
 
+.interestForm {
+	width: 80%;
+	margin: 5% auto;
+}
+
+.interestForm label,
+.interestForm input {
+    width: 100%;
+}
+
+.interestForm input {
+	height: 30px;
+}
 
 
 /*************************
