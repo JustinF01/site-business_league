@@ -1,4 +1,20 @@
-@media (min-width: 515px) {
+@media (min-width: 315px) {
+
+.intro {
+	margin: 35% auto 4%;
+}
+
+.faq{
+	margin-top: 35%;
+}
+
+.vision {
+	margin: 35% 0 0 4%;
+}
+
+}
+
+@media (min-width: 475px) {
 
 .strategy,
 .sr {
@@ -16,10 +32,10 @@
 	text-align: left;
 }
 
-.imgWrap {
+.imgWrap,
+.benefits-img {
 	width: 40%;
-	margin: 5% auto;
-}
+} 
 
 .textWrap {
 	width: 75%;
@@ -51,7 +67,7 @@
 }
 
 .faq{
-	margin-top: 25%;
+	margin-top: 29%;
 }
 
 .vision {
@@ -60,14 +76,14 @@
 
 .view-testimonials,
 .view-ads {
-	width: 55%;
+	width: 45%;
 	margin: 6% auto;
-	padding: 3%;
+	padding: 2%;
 }
 
 .nav {
-	width: 35%;
-	padding: 3%;
+	width: 34%;
+	padding: 2%;
 }
 
 .video-viewer1,
@@ -107,6 +123,71 @@ h4 {
 
 }
 
+@media (min-width: 585px) {
+
+.intro,
+.strategy,
+.sr,
+.benefits,
+.projects {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.intro {
+	margin: 22% auto 4%;
+}
+
+.faq{
+	margin-top: 22%;
+}
+
+.vision {
+	margin: 22% 0 0 4%;
+}
+
+.network-layout,
+.imgWrap {
+	float: left;
+}
+
+.imgWrap {
+	width: 30%;
+	padding: 2%;
+}
+
+.textWrap {
+	width: 100%;
+	margin: 0 auto;
+	padding: 2%;
+}
+
+.headingbg {
+    padding: 0;
+}
+
+#network {
+	text-align: left;
+}
+
+}
+
+@media (min-width: 745px) {
+
+.intro {
+	margin: 18% auto 4%;
+}
+
+.faq{
+	margin-top: 18%;
+}
+
+.vision {
+	margin: 18% 0 0 4%;
+}
+
+}
+
 @media (min-width: 806px) {
 
 .mainNav li {
@@ -124,7 +205,7 @@ h4 {
 
 .imgWrap {
 	width: 30%;
-	margin: 5%;
+	margin: 0 5%;
 	float: left;
 }
 
@@ -136,10 +217,74 @@ h4 {
 
 .benefitsList {
 	clear: left;
-}
-
-.benefits-img {
+} {
 	float: none;
 	margin: 6% auto 0;
 }
+
+.benefitsList li {
+	padding: 2% 4% 8%;
+}
+
+h4 {
+	width: 65%;
+	margin: 0 auto;
+	padding: 2% 2% 2% 3%;
+}
+
+.view-testimonials,
+.view-ads {
+	width: 25%;
+	margin: 6% auto;
+	padding: 3%;
+}
+
+}
+
+@media (min-width: 922px) {
+
+.intro {
+	margin: 15% auto 4%;
+}
+
+.faq{
+	margin-top: 15%;
+}
+
+.vision {
+	margin: 15% 0 0 4%;
+}
+
+}
+
+@media (min-width: 1022px) {
+
+.intro {
+	margin: 11% auto 4%;
+}
+
+.faq{
+	margin-top: 11%;
+}
+
+.vision {
+	margin: 11% 0 0 4%;
+}
+
+}
+
+@media (min-width: 1322px) {
+
+.intro {
+	margin: 10% auto 4%;
+}
+
+.faq{
+	margin-top: 10%;
+}
+
+.vision {
+	margin: 10% 0 0 4%;
+}
+
 }

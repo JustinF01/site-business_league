@@ -47,8 +47,9 @@ h1 {
 }
 
 h4 {
+	margin: 0 0 0 8%;
 	border-bottom: 1px solid #ccc;
-	width: 95%;
+	width: 80%;
 }
 
 .strategy,
@@ -68,12 +69,14 @@ h4 {
     line-height: .8;
 }
 
-.imgWrap {
+.imgWrap,
+.benefits-img {
 	width: 80%;
 	margin: 12% auto;
 }
 
-.imgWrap img {
+.imgWrap img,
+.benefits-img img {
 	width:100%;
 	height: auto;
 }
@@ -81,7 +84,7 @@ h4 {
 .network,
 .interest {
 	background-color: #A4DADD;
-	padding-bottom: 12%;
+	padding: 10% 5%;
 }
 
 
@@ -388,6 +391,7 @@ PAGE: FAQ
 
 
 .faq h3 {
+	margin: 0;
 	background-color: #A4DADD;
 	width: 100%;
 	padding: 2%;
