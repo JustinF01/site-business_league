@@ -8,27 +8,21 @@
     src: url("fonts/Wolf in the City.ttf");
 }
 
-@font-face {
-    font-family: "CaviarDreams";
-    src: url("fonts/CaviarDreams.ttf");
-}
 
 /*************************
 General Styling
 *************************/
 
 * {
-    margin: 0;
-    padding: 0;
+
     box-sizing: border-box;
 }
 
 body {
-	max-width: 1020px;
 	margin: 0 auto;
 	padding: 0;
-	font-family: "CaviarDreams", "calibri";
-	font-size: 1em;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: .95em;
 	line-height: 1.5;
 	background: url(../images/bg.svg);
 }
@@ -44,6 +38,7 @@ a:hover {
 
 h1 {
 	font-family: "Wolf in the City";
+	margin: 0;
 	font-size: 5em;
 	color: #595657;
 	line-height: .8;
@@ -62,7 +57,7 @@ h4 {
 	width: 95%;
 	margin: 0 auto;
 	padding: 2%;
-	text-align: left;
+	text-align: center;
 }
 
 .headingbg {
@@ -101,16 +96,26 @@ Header Styling
 .main-header {
 	width: 100%;
 	height: auto;
-	padding: 10px 0;
+	padding: 10px 0 0 0;
 	display: block;
-	background-color: #A4DADD;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #3AAAAA;
+}
+
+.main-header::after {
+	content: "";
+	display: table;
+	clear: both;
 }
 
 .logo {
-	width: 100%;
-	height: auto;
 	display: block;
-	vertical-align: top;
+	max-width: 350px;
+	width: 100%;
+	margin: 0 auto;
+	height: auto;
 }
 
 .logo img {
@@ -119,30 +124,33 @@ Header Styling
 }
 
 .mainNav {
+	width: 100%;
+	margin: 0;
+	padding: 0;
 	height: auto;
-    display: block;
 	list-style: none;
+	float: left;
+	clear: left;
+	background-color: #21B7B3;
 }
 
 
 
 .mainNav li {
-	width: 25%;
+	width: 33.3%;
 	padding: 2.5%;
 	float: left;
 	text-align: center;
-	background-color: rgba(89, 86, 87, .2);
 }
 
 .mainNav li a {
 	color: #363A3A;
 	display: block;
-	height: 100%;
 	font-size: 1.02em;
 }
 
 .mainNav li:hover {
-	background-color: rgba(89, 86, 87, 1);
+	background-color: #F7C011;
 }
 
 .mainNav li a:hover {
@@ -160,9 +168,13 @@ Intro
 
 .intro {
 	width: 95%;
-	margin: 21% auto 4%;
+	margin: 43.5% auto 4%;
 	padding: 2%;
-	text-align: left;
+	text-align: center;
+}
+
+.intro h2 {
+	border-bottom: 1px solid #ccc;
 }
 
 
@@ -182,12 +194,14 @@ Member Benefits
 
 .benefitsList {
 	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 .benefitsList li {
 	margin: 12% 0;
 	background-color: #52CCCC;
-	padding: 10% 6% 25%;
+	padding: 5% 5% 21%;
 }
 
 .benefitsList li h3 {
@@ -198,15 +212,17 @@ Member Benefits
 
 .benefits a {
 	display: inline-block;
-	background-color: #F48F16;
-	padding: 3%;
+	background-color: #F7C011;
+	padding: 2% 2% 4%;
 	color: white;
 	float: right;
 	margin: 8% 0 0 0;
+	border-radius: 5px;
 }
 
 .benefits a:hover {
 	box-shadow: 0 0 4px #999;
+	background-color: #F4A019;
 }
 
 
@@ -218,8 +234,12 @@ Network
 
 .alignText {
 	width: 95%;
-	padding: 4%;
+	padding: 4% 4% 4% 6%;
 	text-align: left;
+}
+
+.textWrap {
+	text-align: center;
 }
 
 
@@ -232,10 +252,9 @@ Projects
 	padding: 2%;
 }
 
-
 .projectList {
-	list-style: none;
-	text-align: left;
+    width: 95%;
+    margin: 0 auto;
 }
 
 .projectList h4 {
@@ -290,10 +309,6 @@ Interest
 	margin: 0 auto;
 }
 
-.interest p {
-	text-align: center;
-}
-
 .email {
 	display: block;
 	margin: 5% 0;
@@ -313,15 +328,21 @@ Interest
     margin: 5% 0;
     padding: 2%;
     border: none;
+    border-radius: 5px;
 
 }
 
 #submitButton {
+	display: block;
 	padding: 5%;
 	background-color: #F7C011;
 	color: #fff;
 	text-transform: uppercase;
-	box-shadow: 0 0 5px #ccc;
+}
+
+#submitButton:hover {
+	background-color: #F4A019;
+	cursor: pointer;
 }
 
 
@@ -331,7 +352,7 @@ PAGE: Vision
 
 
 .vision {
-	margin: 21% 0 0 4%;
+	margin: 43.5% 0 0 4%;
 }
 
 .vision h1 {
@@ -362,8 +383,9 @@ PAGE: FAQ
 *************************/
 
 .faq{
-	margin-top: 21%;
+	margin-top: 43.5%;
 }
+
 
 .faq h3 {
 	background-color: #A4DADD;
@@ -373,7 +395,13 @@ PAGE: FAQ
 }
 
 .faq ol {
-	padding-left: 10%;
+	padding-left: 15%;
+	list-style-type: lower-alpha;
+}
+
+.faq ol li {
+	margin: 6% 0;
+	font-weight: bold;
 }
 
 /**The Iframes**/
@@ -407,6 +435,25 @@ PAGE: FAQ
 	cursor: pointer;
 }
 
+.networkList {
+	margin-bottom: 10%;
+}
+
+.nav {
+	display: block;
+	width: 70%;
+	margin: 0 auto 10%;
+	background-color: #F7C011;
+	padding: 5%;
+	color: #fff;
+	text-align: center;
+}
+
+.nav:hover {
+	box-shadow: 0 0 5px #ccc;
+	color: #fff;
+	background-color: #F4A019;
+}
 
 /*********************
 footer
@@ -454,7 +501,11 @@ span p {
 
 }
 
-
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
 
 
 /**********for big screens

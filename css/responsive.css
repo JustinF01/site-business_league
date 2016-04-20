@@ -1,0 +1,145 @@
+@media (min-width: 515px) {
+
+.strategy,
+.sr {
+	padding: 0;
+
+}
+
+.mainNav li {
+	padding: 1.5%;
+}
+
+.intro {
+	width: 80%;
+	margin: 25% auto 4%;
+	text-align: left;
+}
+
+.imgWrap {
+	width: 40%;
+	margin: 5% auto;
+}
+
+.textWrap {
+	width: 75%;
+	margin: 10% auto;
+	text-align: left;
+
+}
+
+.benefits {
+	text-align: left;
+}
+
+.benefitsList li {
+	background-color: #35e3e3;
+	padding: 3% 4% 15%;
+}
+
+.benefits a {
+	padding: 1.5% 1.5% 2%;
+}
+
+.interestForm {
+	width: 65%;
+}
+
+#submitButton {
+	padding: 5% 5% 10%;
+	font-size: 1.125em;
+}
+
+.faq{
+	margin-top: 25%;
+}
+
+.vision {
+	margin: 25% 0 0 4%;
+}
+
+.view-testimonials,
+.view-ads {
+	width: 55%;
+	margin: 6% auto;
+	padding: 3%;
+}
+
+.nav {
+	width: 35%;
+	padding: 3%;
+}
+
+.video-viewer1,
+.video-viewer2 {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.ads {
+	width: 45%;
+	margin: 1%;
+	box-shadow: 0 0 25px #ccc;
+	float: left;
+}
+
+h4 {
+	width: 85%;
+	margin: 0 auto;
+	padding: 4% 4% 4% 6%;
+}
+
+.alignText {
+	width: 95%;
+	padding: 2% 2% 2% 6%;
+	text-align: left;
+}
+
+.projectList {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.projectList h4 {
+	margin: 2.85% auto;
+	padding: 4% 4% 13% 4%;
+}
+
+}
+
+@media (min-width: 806px) {
+
+.mainNav li {
+	padding: 1%;
+}
+
+.intro {
+	width: 75%;
+	margin: 19% auto 4%;
+}
+
+.intro h2 {
+	width: 85%;
+}
+
+.imgWrap {
+	width: 30%;
+	margin: 5%;
+	float: left;
+}
+
+.textWrap {
+	width: 45%;
+	margin: 5% auto;
+	text-align: left;
+}
+
+.benefitsList {
+	clear: left;
+}
+
+.benefits-img {
+	float: none;
+	margin: 6% auto 0;
+}
+}
