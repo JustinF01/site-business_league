@@ -37,7 +37,8 @@
 	width: 40%;
 } 
 
-.textWrap {
+.textWrap,
+.network-layout {
 	width: 75%;
 	margin: 10% auto;
 	text-align: left;
@@ -146,6 +147,12 @@ h4 {
 	margin: 22% 0 0 4%;
 }
 
+.network-layout {
+	width: 60%;
+	margin: 0;
+	padding: 1%;
+}
+
 .network-layout,
 .imgWrap {
 	float: left;
@@ -154,6 +161,7 @@ h4 {
 .imgWrap {
 	width: 30%;
 	padding: 2%;
+	margin: 3% 3% 0 3%;
 }
 
 .textWrap {
@@ -186,6 +194,10 @@ h4 {
 	margin: 18% 0 0 4%;
 }
 
+h1 {
+	padding: 1%;
+}
+
 }
 
 @media (min-width: 806px) {
@@ -203,24 +215,9 @@ h4 {
 	width: 85%;
 }
 
-.imgWrap {
-	width: 30%;
-	margin: 0 5%;
-	float: left;
-}
-
-.textWrap {
-	width: 45%;
-	margin: 5% auto;
-	text-align: left;
-}
-
 .benefitsList {
 	clear: left;
-} {
-	float: none;
-	margin: 6% auto 0;
-}
+} 
 
 .benefitsList li {
 	padding: 2% 4% 8%;

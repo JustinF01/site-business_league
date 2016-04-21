@@ -241,7 +241,8 @@ Network
 	text-align: left;
 }
 
-.textWrap {
+.textWrap,
+.network-layout {
 	text-align: center;
 }
 
