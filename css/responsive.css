@@ -380,7 +380,7 @@ h4 {
 }
 
 .faq h3 {
-	margin: 3% 0;
+	margin: 1% 0;
 	padding: 1% 1% 1% 8%;
 }
 
@@ -394,7 +394,7 @@ h4 {
 .benefits,
 .projects {
 	width: 60%;
-	padding: 5% 2%;
+	padding: 3% 1%;
 }
 
 .alignText,
@@ -408,7 +408,14 @@ h4 {
 }
 
 .interestForm {
-	width: 45%;
+	width: 40%;
+}
+
+.interestForm input {
+    height: 40px;
+    margin: 2% 0;
+    padding: 1%;
+
 }
 
 #submitButton {

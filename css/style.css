@@ -258,13 +258,13 @@ Projects
 }
 
 .projectList {
-    width: 95%;
+    width: 98%;
     margin: 0 auto;
 }
 
 .projectList h4 {
-	margin: 2.85%;
-	padding: 5% 5% 15% 5%;
+	margin: 2% auto;
+	padding: 8%;
 	color: #fff;
 }
 
