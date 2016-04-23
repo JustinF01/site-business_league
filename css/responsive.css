@@ -50,7 +50,6 @@
 }
 
 .benefitsList li {
-	background-color: #35e3e3;
 	padding: 3% 4% 15%;
 }
 
@@ -106,7 +105,8 @@ h4 {
 	padding: 4% 4% 4% 6%;
 }
 
-.alignText {
+.alignText,
+.textWrap {
 	width: 95%;
 	padding: 2% 2% 2% 6%;
 	text-align: left;
@@ -115,6 +115,7 @@ h4 {
 .projectList {
 	width: 95%;
 	margin: 0 auto;
+	padding: 0;
 }
 
 .projectList h4 {
@@ -148,14 +149,15 @@ h4 {
 }
 
 .network-layout {
-	width: 60%;
+	width: 68%;
 	margin: 0;
 	padding: 1%;
 }
 
 .network-layout,
 .imgWrap {
-	float: left;
+	display: inline-block;
+	vertical-align: top;
 }
 
 .imgWrap {
@@ -172,10 +174,6 @@ h4 {
 
 .headingbg {
     padding: 0;
-}
-
-#network {
-	text-align: left;
 }
 
 }
@@ -217,10 +215,25 @@ h1 {
 
 .benefitsList {
 	clear: left;
+	margin-top: 5%;
+	padding: 2%;
 } 
 
 .benefitsList li {
-	padding: 2% 4% 8%;
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 2% 0;
+	padding: 5%;
+}
+
+.b-list-item p {
+	display: none;
+}
+
+.benefits a {
+	padding: 1% 1% 2%;
+	margin: 0 auto;
 }
 
 h4 {
@@ -229,12 +242,130 @@ h4 {
 	padding: 2% 2% 2% 3%;
 }
 
+.intro,
+.strategy,
+.sr,
+.benefits,
+.projects {
+	width: 80%;
+	margin: 0 auto;
+	padding: 5% 2%;
+}
+
+.intro {
+	margin-top: 12%;
+}
+
+.network,
+.interest {
+	padding: 5% 2%;
+}
+
+.alignText {
+	width: 90%;
+	padding: 2%;
+	margin: 0 auto;
+}
+
+.alignText1 {
+	width: 80%;
+	margin: 0 auto 2%;
+	padding-top: 2%;
+
+}
+
+.textWrap {
+	width: 80%;
+	padding: 2%;
+	margin: 2% auto;
+}
+
+.imgWrap {
+	margin: 0;
+}
+
+.textWrap p {
+	margin: 0 0 5% 0;
+}
+
+.left-align {
+	text-align: left;
+}
+
+.wrapper {
+	width: 85%;
+	margin: 5% auto 0;
+}
+
+.nav {
+	width: 28%;
+	margin: 0 auto 5%;
+	padding: 1.5%;
+}
+
 .view-testimonials,
 .view-ads {
 	width: 25%;
-	margin: 6% auto;
-	padding: 3%;
+	margin: 4% auto;
+	padding: 2%;
 }
+
+.networkList {
+	margin: 2% 0 10% 2%;
+	padding-left: 23%;
+}
+
+.faq ol {
+	padding-left: 23%;
+}
+
+.faq ol li {
+	margin: 2% 0;
+}
+
+.faq h3 {
+	margin: 0;
+	padding: 2% 2% 2% 10%;
+}
+
+.goalList li {
+	padding-left: 10%;
+}
+
+.one,
+.two,
+.three,
+.four {
+	width: 45%;
+	margin: 0;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.projectList h4 {
+	margin: 1%;
+	padding: 5%;
+	text-align: center;
+}
+
+.textWrap,
+.imgWrap {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.textWrap {
+	width: 55%;
+}
+
+.imgWrap {
+	width: 43%;
+}
+
+.benefits-img {
+	width: 30%;
+	margin: 0 auto;
+} 
 
 }
 
@@ -248,8 +379,70 @@ h4 {
 	margin-top: 15%;
 }
 
+.faq h3 {
+	margin: 3% 0;
+	padding: 1% 1% 1% 8%;
+}
+
 .vision {
 	margin: 15% 0 0 4%;
+}
+
+.intro,
+.strategy,
+.sr,
+.benefits,
+.projects {
+	width: 60%;
+	padding: 5% 2%;
+}
+
+.alignText,
+.wrapper,
+.interestForm {
+	width: 60%;
+}
+
+.interest .alignText1 {
+	width: 60%;
+}
+
+.interestForm {
+	width: 45%;
+}
+
+#submitButton {
+	padding: 2.5% 2.5% 6.5%;
+	font-size: 1.125em;
+}
+
+.imgWrap {
+	width: 30%;
+}
+
+.vision h1 {
+	margin: 0;
+}
+
+.goalList {
+	margin: 5% 0;
+	padding-left: 13%;
+}
+
+footer {
+	padding: 2%;
+}
+
+.credit {
+    max-width: 55px;
+    margin: 2%;
+}
+
+.view-testimonials,
+.view-ads {
+	width: 20%;
+	margin: 2% auto;
+	padding: 1%;
 }
 
 }

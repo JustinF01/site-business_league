@@ -208,7 +208,7 @@ Member Benefits
 }
 
 .benefitsList li h3 {
-	border-bottom: 1px solid #333;
+	border-bottom: 1px solid #fff;
 	width: 95%;
 	margin-bottom: 5%;
 }
@@ -219,7 +219,7 @@ Member Benefits
 	padding: 2% 2% 4%;
 	color: white;
 	float: right;
-	margin: 8% 0 0 0;
+	margin: 3% 0 0 0;
 	border-radius: 5px;
 }
 
@@ -235,13 +235,14 @@ Network
 
 
 
-.alignText {
+.alignText,
+.textWrap {
 	width: 95%;
+	margin: 2% auto;
 	padding: 4% 4% 4% 6%;
 	text-align: left;
 }
 
-.textWrap,
 .network-layout {
 	text-align: center;
 }
@@ -267,6 +268,8 @@ Projects
 	color: #fff;
 }
 
+/****
+
 .one::before {
 	content: url(../images/one.svg);
     vertical-align: center;
@@ -286,6 +289,8 @@ Projects
 	content: url(../images/four.svg);
 
 }
+
+***/
 
 .one {
 	background-color: #28BFBF;
@@ -370,11 +375,6 @@ PAGE: Vision
 	margin: 0 auto;
 }
 
-.goalList,
-.end {
-	margin-bottom: 12%;
-}
-
 .goalList li {
     margin-top: 5%;
 	padding-left: 5%;
@@ -440,18 +440,15 @@ PAGE: FAQ
 	cursor: pointer;
 }
 
-.networkList {
-	margin-bottom: 10%;
-}
+
 
 .nav {
 	display: block;
 	width: 70%;
 	margin: 0 auto 10%;
-	background-color: #F7C011;
 	padding: 5%;
-	color: #fff;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 .nav:hover {
@@ -512,6 +509,9 @@ span p {
 	clear: both;
 }
 
+.center {
+	text-align: center;
+}
 
 /**********for big screens
 .ads {
