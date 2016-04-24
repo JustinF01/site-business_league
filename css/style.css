@@ -114,10 +114,10 @@ Header Styling
 }
 
 .logo {
-	display: block;
+	display: inline-block;
 	max-width: 350px;
 	width: 100%;
-	margin: 0 auto;
+	margin: 0 0 0 6%;
 	height: auto;
 }
 
@@ -162,6 +162,25 @@ Header Styling
 
 .slogan {
 	text-align: center;
+}
+
+.joinUp {
+	display: none;
+	padding: 1%;
+	background-color: #F7C011;
+	border-radius: 5px;
+	float: right;
+	margin: 1.65% 3% 1.65% 1.65%;
+}
+
+.joinUp a {
+	display: block;
+    color: #fff;
+}
+
+.joinUp:hover {
+	background-color: #F4A019;
+	box-shadow: 0 0 5px #333;
 }
 
 
@@ -376,7 +395,7 @@ PAGE: Vision
 }
 
 .goalList li {
-    margin-top: 5%;
+    margin-top: 3%;
 	padding-left: 5%;
 }
 
