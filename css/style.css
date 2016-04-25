@@ -37,11 +37,11 @@ a:hover {
 }
 
 h1 {
-	font-family: "Wolf in the City";
+	font-family: 'Maven Pro', sans-serif;
 	margin: 0;
-	font-size: 5em;
+	font-size: 3em;
 	color: #595657;
-	line-height: .8;
+	line-height: 1;
 	text-align: center;
 	padding: 2%;
 }
@@ -117,7 +117,7 @@ Header Styling
 	display: inline-block;
 	max-width: 350px;
 	width: 100%;
-	margin: 0 0 0 6%;
+	margin: 0;
 	height: auto;
 }
 
@@ -360,12 +360,13 @@ Interest
 
 }
 
-#submitButton {
+input[type="submit"] {
 	display: block;
 	padding: 5%;
 	background-color: #F7C011;
 	color: #fff;
 	text-transform: uppercase;
+	-webkit-appearance: none;
 }
 
 #submitButton:hover {
