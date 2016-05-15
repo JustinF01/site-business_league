@@ -115,13 +115,14 @@ Header Styling
 
 .logo {
 	display: inline-block;
-	max-width: 350px;
+	max-width: 550px;
 	width: 100%;
 	margin: 0;
 	height: auto;
 }
 
-.logo img {
+svg {
+	display: block;
     width: 100%;
     height: auto;
 }
